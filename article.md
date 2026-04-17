@@ -7515,7 +7515,7 @@ The unification of the Italian peninsula moved through an uneven opening, then t
 
 <!-- #endregion -->
 
-```python
+```python tags=["figure-graph1-*"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7530,8 +7530,6 @@ metadata = {
 }
 display(Image("./media/graph1_senate_origin_by_periods_100pct_barh.png", width=1000), metadata=metadata)
 ```
-
-<!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
