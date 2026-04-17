@@ -5,7 +5,7 @@ jupyter:
     text_representation:
       extension: .md
       format_name: markdown
-      format_version: '1.3'
+      format_version: "1.3"
       jupytext_version: 1.19.1
   kernelspec:
     display_name: Python 3 (ipykernel)
@@ -4973,12 +4973,6 @@ def main():
 if __name__ == "__main__":
     main()
 ````
-
-```python jdh={"module": "object", "object": {"source": ["Art.33 categories among senators in office (1848\u20131946 union): counts and percentages"]}} slideshow={"slide_type": ""} tags=["table-art33_all21_overall_counts_pct_v9-*"]
-import pandas as pd
-df = pd.read_csv("./script/art33_all21_overall_counts_pct_v9.csv")
-df
-```
 
 ### Categories (reorganised)
 
