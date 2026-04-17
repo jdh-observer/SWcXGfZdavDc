@@ -7515,13 +7515,22 @@ The unification of the Italian peninsula moved through an uneven opening, then t
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} -->
-<figure>
-  <a href="media/graph1_senate_origin_by_periods_100pct_barh.png">
-    <img src="media/graph1_senate_origin_by_periods_100pct_barh.png" width="900">
-  </a>
-  <figcaption><b>Graph 1.</b> Senate origin by macro-area, period shares.</figcaption>
-</figure>
+```python tags=["figure-senate-origin-periods-100pct-barh-*"]
+from IPython.display import Image, display
+metadata = {
+    "jdh": {
+        "module": "object",
+        "object": {
+            "type": "image",
+            "source": [
+                "Graph 1. Senate origin by macro-area (100% stacked), by historical period (1848–1946)"
+            ]
+        }
+    }
+}
+display(Image("./media/graph1_senate_origin_by_periods_100pct_barh.png", width=1000), metadata=metadata)
+```
+
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
