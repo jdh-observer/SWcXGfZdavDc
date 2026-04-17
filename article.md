@@ -8,7 +8,7 @@ jupyter:
       format_version: '1.3'
       jupytext_version: 1.19.1
   kernelspec:
-    display_name: Python 3 (ipykernel)
+    display_name: base
     language: python
     name: python3
 ---
@@ -7561,19 +7561,24 @@ Taken together, the five periods support a restrained conclusion. The Savoyard c
 
 ### Categories and Professions of Senators
 
+
 While Article 33 lists a wide range of eligible routes to appointment, the distribution is in practice highly concentrated. This study therefore retains two categories as the main indicators of social and political weight: cat_03 (Deputy) and cat_21 (Top taxpayer). The rationale is straightforward. These two routes are the most frequent across the whole series and they capture resources that a professional taxonomy cannot register with the same clarity: accumulated political capital (parliamentary experience) and fiscal–property standing (exceptional tax capacity). At the same time, many of the remaining categories—ministers, senior magistrates, senior officers, academy members—overlap so closely in social and institutional terms that they are best read as adjacent expressions of a common high-state trajectory rather than as analytically independent channels. A methodological distinction follows from this choice. Article 33 indicators are multi-choice flags: one senator may satisfy several statutory conditions, so the reported shares measure the incidence of each trait within the chamber, not a partition of it. “Other” denotes senators in office who match none of the retained categories. Macro-professions, by contrast, are treated as mutually exclusive in order to produce a parsimonious sociological map, with “Other” aggregating profiles outside the dominant elite groups.
 
-<figure style="margin: 1.2rem auto; max-width: 1100px;">
-  <img
-    src="media/table_art33_2cats_by_period_bw_v9.png"
-    alt="Table — Article 33 categories by period"
-    style="width: 100%; height: auto; display: block; border: 1px solid #000;"
-  >
-  <figcaption style="font-size: 0.95rem; line-height: 1.25; margin-top: 0.5rem;">
-    <strong>Table 1 — Article 33 categories by period.</strong>
-    Percent values show the weight of the main grouped routes of appointment within each period: deputies, top taxpayers, general officers, high state and judicial offices, learned and educational elites, and symbolic or exceptional routes.
-  </figcaption>
-</figure>
+```python
+from IPython.display import Image, display
+metadata = {
+    "jdh": {
+        "module": "object",
+        "object": {
+            "type": "image",
+            "source": [
+                "Table 1 — Article 33 categories by period"
+            ]
+        }
+    }
+}
+display(Image("./media/table_art33_2cats_by_period_bw_v9.png", width=1000), metadata=metadata)
+```
 
 Following Table 1, the distribution of Article 33 categories across the five periods points to a Senate structured by several durable routes of recruitment rather than by a single dominant principle. The parliamentary route nevertheless emerges with particular force. Deputies account for 7.6% in 1848–1859, rise to 25.5% in 1860–1882, and then become the largest single channel in the central liberal decades, reaching 39.1% in 1883–1913 and 39.5% in 1914–1924, before declining to 31.7% in 1925–1946. The trajectory retains its central place even after that decline, and the union total of 32.8% confirms the long-term weight of prior service in the elected chamber. What takes shape, period after period, is a constitutional body increasingly permeated by careers formed in representative politics. Appointment for life did not erase the growing authority of parliamentary experience; rather, it absorbed and stabilised it. The Senate increasingly appears as a chamber in which elective legitimacy, once accumulated in the Chamber of Deputies, could be translated into permanence, rank, and institutional continuity.
 
@@ -7585,20 +7590,24 @@ The fiscal–property route follows a different rhythm, but one that remained eq
 
 The remaining routes were smaller, yet they still reveal important adjustments in the political and symbolic composition of the chamber. General officers begin at 17.4% in 1848–1859, fall to just above 8% from 1860 to 1924, and then rise sharply to 14.2% in 1925–1946, a late recovery that gives the military route a union total of 11.5%. Learned and educational elites move within a narrower band, from 9.7% in 1848–1859 to 7.1% in 1860–1882, 9.4% in 1883–1913, 12.1% in 1914–1924, and 7.7% in 1925–1946, confirming a steady, though secondary, presence of scientific and educational prestige within senatorial recruitment. Symbolic or exceptional routes, by contrast, contract markedly over time: from 16.7% in 1848–1859 and 11.1% in 1860–1882 to 2.5% in 1883–1913, then 4.4% in 1914–1924 and 4.4% again in 1925–1946. Their declining weight suggests that the early Senate still carried a stronger imprint of foundational, honorific, and extraordinary forms of nomination, while the later chamber became more tightly anchored in repeatable institutional careers and socially recognisable qualifications. Taken as a whole, the table points to a long transition from an upper house still marked by heterogeneous founding logics to one increasingly organised around a smaller number of stable channels: elective politics, wealth, state office, and, in more limited measure, military and learned distinction.
 
+
 ### Profession
 
-<figure style="margin: 1.2rem auto; max-width: 1100px;">
-  <img
-    src="media/table_prof_macro_top5_by_period_bw_v9.png"
-    alt="Table — Macro-professions of senators, by period"
-    style="width: 100%; height: auto; display: block; border: 1px solid #000;"
-  >
-  <figcaption style="font-size: 0.95rem; line-height: 1.25; margin-top: 0.5rem;">
-    <strong>Table 2 — Macro-professions of senators, by period.</strong>
-    Percent values partition the chamber within each period (macro-profession is treated as mutually exclusive);
-    “Other” aggregates all remaining categories outside the top list.
-  </figcaption>
-</figure>
+```python
+from IPython.display import Image, display
+metadata = {
+    "jdh": {
+        "module": "object",
+        "object": {
+            "type": "image",
+            "source": [
+                "Table 2 — Macro-professions of senators, by period"
+            ]
+        }
+    }
+}
+display(Image("./media/table_prof_macro_top5_by_period_bw_v9.png", width=1000), metadata=metadata)
+```
 
 The macro-professional (Table 2), clarifies how these statutory channels are socially embodied. Economic elites remain substantial but trend downwards in the later phases: after 31.7% in 1860–1882 they decline to 24.1% in 1883–1913, 18.6% in 1914–1924, and 16.6% in 1925–1946. In parallel, credentialled expertise expands. University professors rise from 4.9% (1848–1859) to 9.4% (1860–1882), 12.7% (1883–1913), peak at 19.3% (1914–1924), and remain elevated at 18.0% (1925–1946). Lawyers similarly climb from 3.5% to 6.7% and 8.6% in the first three periods, peak at 16.3% in 1914–1924, and then retreat to 11.4% thereafter. These trajectories indicate a growing premium on credentials and formal competences as usable forms of authority within the state’s upper institutions. Coercive and high-state careers show long downward pressure with a partial reversal in the final period. Military elites fall from 20.8% in 1848–1859 to 12.0% in 1860–1882, hover around 11% across the liberal decades, and then rise to 16.7% in 1925–1946. Magistrates decline from 19.4% in the first period to around 10.5% in the middle decades, drop to 8.4% in 1914–1924, and recover to 10.3% thereafter. The final period thus modifies earlier tendencies rather than cancelling them: the re-weighting of military and senior state careers coincides with the renewed prominence of top taxpayers, yet the chamber continues to rely heavily on parliamentary experience and credentialled expertise.
 
@@ -7616,21 +7625,39 @@ Life appointment gives the Senate its distinctive tempo. Nominations arrived in 
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} -->
-<figure>
-  <img src="media/senate_in_office_by_year_line_bw.png" width="900">
-  <figcaption><i>Graph 2.</i> <i>Senators in office per year (1848–1946) (v9).</i></figcaption>
-</figure>
-<!-- #endregion -->
+```python editable=true slideshow={"slide_type": ""}
+from IPython.display import Image, display
+metadata = {
+    "jdh": {
+        "module": "object",
+        "object": {
+            "type": "image",
+            "source": [
+                "Graph 2.Senators in office per year (1848 – 1946)"
+            ]
+        }
+    }
+}
+display(Image("./media/senate_in_office_by_year_line_bw.png", width=1000), metadata=metadata)
+```
 
 The second dimension we examine concerns the profile of the senators and the careers they developed within the Senate itself, reconstructed through three interrelated measures that help us grasp what it means to belong to a life-appointed chamber—one that does not, by its nature, offer clear “work periods” in the way elective institutions do. The first measure is simply the size of the Senate, traced year by year (Graph 2). Read in this way, the chamber follows a long curve of expansion, with an especially sharp increase when it ceases to be the Senate of the Kingdom of Sardinia and becomes the Senate of the Kingdom of Italy, moving from roughly a hundred members to around three hundred. Numbers then rise more steadily, reaching an average of roughly five hundred senators. In 1938 the series reaches its peak, climbing beyond the five-hundred mark—an acceleration plausibly connected to Mussolini’s need to consolidate a more dependable majority within an institution with which the regime generally worked without major difficulty, but where loyalty became a more pressing concern as Italy moved into a direct alliance with Germany, a strategic orientation not always instinctive for a political culture long accustomed to agreements with Great Britain.
 
-<!-- #region editable=true slideshow={"slide_type": ""} -->
-<figure>
-  <img src="media/senate_avg_seniority_years_by_year_line_bw.png" width="900">
-  <figcaption><i>Graph 3.</i> <i>Average seniority among senators in office (end-of-year, 1848–1946) (v9).</i></figcaption>
-</figure>
-<!-- #endregion -->
+```python editable=true slideshow={"slide_type": ""}
+from IPython.display import Image, display
+metadata = {
+    "jdh": {
+        "module": "object",
+        "object": {
+            "type": "image",
+            "source": [
+                "Graph 3. Average seniority among senators in office (end-of-year, 1848–1946)"
+            ]
+        }
+    }
+}
+display(Image("./media/senate_avg_seniority_years_by_year_line_bw.png", width=1000), metadata=metadata)
+```
 
 Graph 3 shows, year by year (1848–1946), the average seniority already accumulated by senators in office in that year. For each year, we treat the Senate as a collective body: we select all senators who are in office under our rule (nomination date ≤ the end of the year; and death missing or death ≥ the start of the year) and, for each of them, we compute how many years have elapsed since nomination up to 31 December of that year. The line therefore reports the mean of these values among all senators serving in that year. Read this way, the figure captures the chamber’s rhythm of permanence. When the line rises, the Senate of that year is, on average, composed of men who have been senators for longer; when it falls, recent appointments weigh more heavily and the composition “refreshes” more quickly. It offers a direct way of seeing how, within a life-appointed institution, the pace of renewal shifts over time, and with it the conditions under which collective habits, styles, and dispositions of the Senate take shape.
 
@@ -7640,12 +7667,21 @@ Having established how large the Senate was, and how “old” it was as a colle
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} -->
-<figure>
-  <img src="media/senate_in_office_by_nomination_cohort_bw_hatched_barh.png" width="900">
-  <figcaption><i>Graph 4.</i> <i>Senators in office by period, split by nomination cohort (v9).</i></figcaption>
-</figure>
-<!-- #endregion -->
+```python editable=true slideshow={"slide_type": ""}
+from IPython.display import Image, display
+metadata = {
+    "jdh": {
+        "module": "object",
+        "object": {
+            "type": "image",
+            "source": [
+                "Graph 4. Senators in office by period, split by nomination cohort"
+            ]
+        }
+    }
+}
+display(Image("./media/senate_in_office_by_nomination_cohort_bw_hatched_barh.png", width=1000), metadata=metadata)
+```
 
 The quantitative pattern points to a senatorial presence of roughly twenty to thirty years on average—long enough for notability to settle into durable habits, yet not long enough to guarantee a heavy carry-over from one political regime of recruitment to the next. The limited transit between periods makes that plain (Graph 4): the second period is composed largely of senators nominated within 1860–1882, while the earlier cohort contracts rapidly. By the time the third period is reached, the Sardinian nominees no longer form a meaningful component. Age provides the banal explanation—men already of mature years at the moment of nomination—but the institutional implication remains: even a life-appointed chamber undergoes substantial renewal within two generational steps. This has to be read alongside what we observed in the chamber’s territorial enlargement. Just as appointments gradually incorporated the spaces that would form unified Italy, the transition from the Kingdom of Sardinia to the united kingdom involved a marked re-shuffling inside the Senate itself. The older Sardinian senators—already few in relative terms—remain a minority once the new state framework consolidates. The image thus returns a double movement: expansion made possible by conquest and annexation, and an internal recomposition through which the Crown rendered the newly acquired peninsula administratively legible. In that sense, integration was not a neutral unfolding of “national” inclusion, but a widening carried out through the categories and hierarchies of a centre that had learned to govern first at home, and then across the rest of the peninsula.
 
@@ -7697,12 +7733,21 @@ Graph 5 shows, for each of the five periods, the share of nobles in the Senate (
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} -->
-<figure>
-  <img src="media/v09_nobles_profile_by_period_bw_hatched_horizontal.png" width="900" alt="Nobles by period — deputies / landowners / military / state elites / other (percent of total appointments)">
-  <figcaption><i>Graph 5.</i> <i>Nobles by period: deputies, landowners, military, state elites, and other (percent of total appointments).</i></figcaption>
-</figure>
-<!-- #endregion -->
+```python editable=true slideshow={"slide_type": ""}
+from IPython.display import Image, display
+metadata = {
+    "jdh": {
+        "module": "object",
+        "object": {
+            "type": "image",
+            "source": [
+                "Graph 5. Nobles by period: deputies, landowners, military, state elites, and other (percent of total appointments)"
+            ]
+        }
+    }
+}
+display(Image("./media/v09_nobles_profile_by_period_bw_hatched_horizontal.png", width=1000), metadata=metadata)
+```
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
@@ -7746,12 +7791,21 @@ The figures on deputy background make it possible to describe, with some precisi
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} -->
-<figure>
-  <img src="media/deputy_background_pct_with_avg_years_bw_single_chart_v9.png" width="900">
-  <figcaption><i>Graph 6.</i> <i>Deputy background by period (v9): share in office and average pre-Senate Chamber years.</i></figcaption>
-</figure>
-<!-- #endregion -->
+```python editable=true slideshow={"slide_type": ""}
+from IPython.display import Image, display
+metadata = {
+    "jdh": {
+        "module": "object",
+        "object": {
+            "type": "image",
+            "source": [
+                "Graph 6. Deputy background by period (v9): share in office and average pre-Senate Chamber years."
+            ]
+        }
+    }
+}
+display(Image("./media/deputy_background_pct_with_avg_years_bw_single_chart_v9.png", width=1000), metadata=metadata)
+```
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
@@ -7821,12 +7875,21 @@ This section shifts attention from formal “eligibility” criteria to the occu
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} -->
-<figure>
-  <img src="media/professione_macro_by_period_compare_deputy_vs_all_hbar_bw_pct_v9.png" width="900">
-  <figcaption><i>Graph 7.</i> <i>Macro-professions by period (v9).</i></figcaption>
-</figure>
-<!-- #endregion -->
+```python editable=true slideshow={"slide_type": ""}
+from IPython.display import Image, display
+metadata = {
+    "jdh": {
+        "module": "object",
+        "object": {
+            "type": "image",
+            "source": [
+                "Graph 7. Macro-professions by period"
+            ]
+        }
+    }
+}
+display(Image("./media/professione_macro_by_period_compare_deputy_vs_all_hbar_bw_pct_v9.png", width=1000), metadata=metadata)
+```
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
