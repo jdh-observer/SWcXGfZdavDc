@@ -8,7 +8,7 @@ jupyter:
       format_version: '1.3'
       jupytext_version: 1.19.1
   kernelspec:
-    display_name: base
+    display_name: Python 3 (ipykernel)
     language: python
     name: python3
 ---
@@ -4608,7 +4608,7 @@ if __name__ == "__main__":
     main()
 ```
 
-```python tags=["figure-senate-origin-periods-100pct-barh-*"]
+```python editable=true slideshow={"slide_type": ""}
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -4624,7 +4624,7 @@ metadata = {
 display(Image("./media/graph1_senate_origin_by_periods_100pct_barh", width=1000), metadata=metadata)
 ```
 
-````python jdh={"object": {"source": ["Graph 1. Senate origin by macro-area (100% stacked), by historical period (1848\u20131946)"]}} tags=["figure-senate-origin-periods-100pct-barh-*"]
+````python editable=true jdh={"object": {"source": ["Graph 1. Senate origin by macro-area (100% stacked), by historical period (1848\u20131946)"]}} slideshow={"slide_type": ""}
 
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
