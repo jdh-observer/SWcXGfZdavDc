@@ -5,7 +5,7 @@ jupyter:
     text_representation:
       extension: .md
       format_name: markdown
-      format_version: '1.3'
+      format_version: "1.3"
       jupytext_version: 1.19.1
   kernelspec:
     display_name: base
@@ -4176,7 +4176,7 @@ With the dataset now stabilised in its final V9 release, the workflow moves from
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
 
-Senate origin by macro-area (100% stacked), by historical period (1848–1946). This script builds Figure 1 from the final V9 dataset by applying a transparent in-office rule to count senators across five periods. Missing death dates are handled through an explicit A/B/C procedure to avoid silent imputation. The resulting totals are converted into percentages (0–100) and exported as a wide summary CSV, alongside a diagnostics CSV that records key checks (missingness, mask counts, macro distribution, and period totals). The figure is saved as graph1_senate_origin_by_periods_100pct_barh.png.
+Senate origin by macro-area (100% stacked), by historical period (1848–1946). This script builds [Figure 1](anchor-figure-senate-origin) from the final V9 dataset by applying a transparent in-office rule to count senators across five periods. Missing death dates are handled through an explicit A/B/C procedure to avoid silent imputation. The resulting totals are converted into percentages (0–100) and exported as a wide summary CSV, alongside a diagnostics CSV that records key checks (missingness, mask counts, macro distribution, and period totals). The figure is saved as graph1_senate_origin_by_periods_100pct_barh.png.
 
 <!-- #endregion -->
 
