@@ -7515,7 +7515,7 @@ The unification of the Italian peninsula moved through an uneven opening, then t
 
 <!-- #endregion -->
 
-```python tags=["figure-graph1-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-senate-origin-*"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7523,7 +7523,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Graph 1. Senate origin by macro-area (100% stacked), by historical period (1848–1946)"
+                "Figure 1. Senate origin by macro-area (100% stacked), by historical period (1848–1946)"
             ]
         }
     }
@@ -7533,7 +7533,7 @@ display(Image("./media/graph1_senate_origin_by_periods_100pct_barh.png", width=1
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
-In the first period (1848–1859), the chamber still bears the mark of a Piedmontese–Savoyard state whose institutions pre-date the nation. As Graph 1 shows, among senators counted “in office” in this phase, the Kingdom of Sardinia accounts for about 85.4%, while the remainder appears as a thin rim: Nord-Est (Lombardy) 13.2%, Centro 0.7%, and a small component born abroad (Estero) 0.7%. The “foreign” share is best read as the presence of individuals born outside the peninsula—often the offspring of established families and circuits of high notability—rather than as any opening of the chamber’s social base. The Senate’s geography begins, in other words, as a compact core with only faint outward filaments.
+In the first period (1848–1859), the chamber still bears the mark of a Piedmontese–Savoyard state whose institutions pre-date the nation. As figure 1 shows, among senators counted “in office” in this phase, the Kingdom of Sardinia accounts for about 85.4%, while the remainder appears as a thin rim: Nord-Est (Lombardy) 13.2%, Centro 0.7%, and a small component born abroad (Estero) 0.7%. The “foreign” share is best read as the presence of individuals born outside the peninsula—often the offspring of established families and circuits of high notability—rather than as any opening of the chamber’s social base. The Senate’s geography begins, in other words, as a compact core with only faint outward filaments.
 
 <!-- #endregion -->
 
@@ -7543,7 +7543,9 @@ After 1859—when annexations and plebiscites accelerate territorial enlargement
 
 <!-- #endregion -->
 
+<!-- #region editable=true slideshow={"slide_type": ""} -->
 From 1883 to 1913, the territorial balance persists with modest oscillations: Kingdom of Sardinia 23.5%, Nord-Est (Lombardia) 29.1%, Sud 31.6%, Centro 14.0%, with a small Estero at 1.7%. This is the long liberal consolidation—expanded suffrage, party organisation, a thicker public sphere—yet the upper chamber continues to rest on nomination and on social credentials that pre-exist electoral politics. In this sense, unification appears less as a one-directional occupation by the Savoyard core than as a dual movement: a constitutional–dynastic centre providing the form (Statuto, Crown, appointment), and a broad incorporation of territorial élites providing the social material through which the state becomes lived and legible.
+<!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
@@ -7559,10 +7561,11 @@ Taken together, the five periods support a restrained conclusion. The Savoyard c
 
 ### Categories and Professions of Senators
 
-
+<!-- #region editable=true slideshow={"slide_type": ""} -->
 While Article 33 lists a wide range of eligible routes to appointment, the distribution is in practice highly concentrated. This study therefore retains two categories as the main indicators of social and political weight: cat_03 (Deputy) and cat_21 (Top taxpayer). The rationale is straightforward. These two routes are the most frequent across the whole series and they capture resources that a professional taxonomy cannot register with the same clarity: accumulated political capital (parliamentary experience) and fiscal–property standing (exceptional tax capacity). At the same time, many of the remaining categories—ministers, senior magistrates, senior officers, academy members—overlap so closely in social and institutional terms that they are best read as adjacent expressions of a common high-state trajectory rather than as analytically independent channels. A methodological distinction follows from this choice. Article 33 indicators are multi-choice flags: one senator may satisfy several statutory conditions, so the reported shares measure the incidence of each trait within the chamber, not a partition of it. “Other” denotes senators in office who match none of the retained categories. Macro-professions, by contrast, are treated as mutually exclusive in order to produce a parsimonious sociological map, with “Other” aggregating profiles outside the dominant elite groups.
+<!-- #endregion -->
 
-```python
+```python editable=true slideshow={"slide_type": ""}
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7578,7 +7581,9 @@ metadata = {
 display(Image("./media/table_art33_2cats_by_period_bw_v9.png", width=1000), metadata=metadata)
 ```
 
+<!-- #region editable=true slideshow={"slide_type": ""} -->
 Following Table 1, the distribution of Article 33 categories across the five periods points to a Senate structured by several durable routes of recruitment rather than by a single dominant principle. The parliamentary route nevertheless emerges with particular force. Deputies account for 7.6% in 1848–1859, rise to 25.5% in 1860–1882, and then become the largest single channel in the central liberal decades, reaching 39.1% in 1883–1913 and 39.5% in 1914–1924, before declining to 31.7% in 1925–1946. The trajectory retains its central place even after that decline, and the union total of 32.8% confirms the long-term weight of prior service in the elected chamber. What takes shape, period after period, is a constitutional body increasingly permeated by careers formed in representative politics. Appointment for life did not erase the growing authority of parliamentary experience; rather, it absorbed and stabilised it. The Senate increasingly appears as a chamber in which elective legitimacy, once accumulated in the Chamber of Deputies, could be translated into permanence, rank, and institutional continuity.
+<!-- #endregion -->
 
 <!-- #region citation-manager={"citations": {"u8fdn": [], "w66to": []}} -->
 
