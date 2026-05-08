@@ -8,7 +8,7 @@ jupyter:
       format_version: '1.3'
       jupytext_version: 1.19.1
   kernelspec:
-    display_name: Python 3 (ipykernel)
+    display_name: base
     language: python
     name: python3
 ---
@@ -7565,20 +7565,12 @@ Taken together, the five periods support a restrained conclusion. The Savoyard c
 While Article 33 lists a wide range of eligible routes to appointment, the distribution is in practice highly concentrated. This study therefore retains two categories as the main indicators of social and political weight: cat_03 (Deputy) and cat_21 (Top taxpayer). The rationale is straightforward. These two routes are the most frequent across the whole series and they capture resources that a professional taxonomy cannot register with the same clarity: accumulated political capital (parliamentary experience) and fiscal–property standing (exceptional tax capacity). At the same time, many of the remaining categories—ministers, senior magistrates, senior officers, academy members—overlap so closely in social and institutional terms that they are best read as adjacent expressions of a common high-state trajectory rather than as analytically independent channels. A methodological distinction follows from this choice. Article 33 indicators are multi-choice flags: one senator may satisfy several statutory conditions, so the reported shares measure the incidence of each trait within the chamber, not a partition of it. “Other” denotes senators in office who match none of the retained categories. Macro-professions, by contrast, are treated as mutually exclusive in order to produce a parsimonious sociological map, with “Other” aggregating profiles outside the dominant elite groups.
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""}
-from IPython.display import Image, display
-metadata = {
-    "jdh": {
-        "module": "object",
-        "object": {
-            "type": "image",
-            "source": [
-                "Table 1 — Article 33 categories by period"
-            ]
-        }
-    }
-}
-display(Image("./media/table_art33_2cats_by_period_bw_v9.png", width=1000), metadata=metadata)
+```python editable=true slideshow={"slide_type": ""} tags=["table-art33-2cats-period-*"]
+jdh={"module": "object", "object": {"source": ["Table 1 — Article 33 categories by period"]}} 
+slideshow={"slide_type": ""}
+import pandas as pd
+df = pd.read_csv("./script/table_art33_2cats_by_period_pct_v9.csv")
+df
 ```
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
