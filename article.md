@@ -7515,7 +7515,7 @@ The unification of the Italian peninsula moved through an uneven opening, then t
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-senate-origin-*", "anchor-figure-senate-origin-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-senate-origin-*", "anchor-figure-senate-origin"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
