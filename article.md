@@ -4176,7 +4176,7 @@ With the dataset now stabilised in its final V9 release, the workflow moves from
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
 
-Senate origin by macro-area (100% stacked), by historical period (1848–1946). This script builds Graph 1 from the final V9 dataset by applying a transparent in-office rule to count senators across five periods. Missing death dates are handled through an explicit A/B/C procedure to avoid silent imputation. The resulting totals are converted into percentages (0–100) and exported as a wide summary CSV, alongside a diagnostics CSV that records key checks (missingness, mask counts, macro distribution, and period totals). The figure is saved as graph1_senate_origin_by_periods_100pct_barh.png.
+Senate origin by macro-area (100% stacked), by historical period (1848–1946). This script builds Figure 1 from the final V9 dataset by applying a transparent in-office rule to count senators across five periods. Missing death dates are handled through an explicit A/B/C procedure to avoid silent imputation. The resulting totals are converted into percentages (0–100) and exported as a wide summary CSV, alongside a diagnostics CSV that records key checks (missingness, mask counts, macro distribution, and period totals). The figure is saved as graph1_senate_origin_by_periods_100pct_barh.png.
 
 <!-- #endregion -->
 
@@ -7515,7 +7515,7 @@ The unification of the Italian peninsula moved through an uneven opening, then t
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-senate-origin-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-senate-origin-*", "anchor-figure-senate-orgin"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7565,7 +7565,7 @@ Taken together, the five periods support a restrained conclusion. The Savoyard c
 While Article 33 lists a wide range of eligible routes to appointment, the distribution is in practice highly concentrated. This study therefore retains two categories as the main indicators of social and political weight: cat_03 (Deputy) and cat_21 (Top taxpayer). The rationale is straightforward. These two routes are the most frequent across the whole series and they capture resources that a professional taxonomy cannot register with the same clarity: accumulated political capital (parliamentary experience) and fiscal–property standing (exceptional tax capacity). At the same time, many of the remaining categories—ministers, senior magistrates, senior officers, academy members—overlap so closely in social and institutional terms that they are best read as adjacent expressions of a common high-state trajectory rather than as analytically independent channels. A methodological distinction follows from this choice. Article 33 indicators are multi-choice flags: one senator may satisfy several statutory conditions, so the reported shares measure the incidence of each trait within the chamber, not a partition of it. “Other” denotes senators in office who match none of the retained categories. Macro-professions, by contrast, are treated as mutually exclusive in order to produce a parsimonious sociological map, with “Other” aggregating profiles outside the dominant elite groups.
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} tags=["table-art33-2cats-period-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["table-art33-2cats-period-*", "anchor-table-art33-2cats-period"]
 jdh={"module": "object", "object": {"source": ["Table 1 — Article 33 categories by period"]}} 
 slideshow={"slide_type": ""}
 import pandas as pd
@@ -7588,7 +7588,7 @@ The remaining routes were smaller, yet they still reveal important adjustments i
 
 ### Profession
 
-```python tags=["table-prof-macro-*"]
+```python tags=["table-prof-macro-*", "anchor-table-prof-macro"]
 jdh={"module": "object", "object": {"source": ["Table 2 — Macro-professions of senators, by period"]}} 
 slideshow={"slide_type": ""}
 import pandas as pd
@@ -7612,7 +7612,7 @@ Life appointment gives the Senate its distinctive tempo. Nominations arrived in 
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""}
+```python editable=true slideshow={"slide_type": ""} tags=["figure-senate-office-*", "anchor-figure-senate-office"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7620,7 +7620,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Graph 2.Senators in office per year (1848 – 1946)"
+                "Figure 2.Senators in office per year (1848 – 1946)"
             ]
         }
     }
@@ -7628,9 +7628,9 @@ metadata = {
 display(Image("./media/senate_in_office_by_year_line_bw.png", width=1000), metadata=metadata)
 ```
 
-The second dimension we examine concerns the profile of the senators and the careers they developed within the Senate itself, reconstructed through three interrelated measures that help us grasp what it means to belong to a life-appointed chamber—one that does not, by its nature, offer clear “work periods” in the way elective institutions do. The first measure is simply the size of the Senate, traced year by year (Graph 2). Read in this way, the chamber follows a long curve of expansion, with an especially sharp increase when it ceases to be the Senate of the Kingdom of Sardinia and becomes the Senate of the Kingdom of Italy, moving from roughly a hundred members to around three hundred. Numbers then rise more steadily, reaching an average of roughly five hundred senators. In 1938 the series reaches its peak, climbing beyond the five-hundred mark—an acceleration plausibly connected to Mussolini’s need to consolidate a more dependable majority within an institution with which the regime generally worked without major difficulty, but where loyalty became a more pressing concern as Italy moved into a direct alliance with Germany, a strategic orientation not always instinctive for a political culture long accustomed to agreements with Great Britain.
+The second dimension we examine concerns the profile of the senators and the careers they developed within the Senate itself, reconstructed through three interrelated measures that help us grasp what it means to belong to a life-appointed chamber—one that does not, by its nature, offer clear “work periods” in the way elective institutions do. The first measure is simply the size of the Senate, traced year by year (Figure 2). Read in this way, the chamber follows a long curve of expansion, with an especially sharp increase when it ceases to be the Senate of the Kingdom of Sardinia and becomes the Senate of the Kingdom of Italy, moving from roughly a hundred members to around three hundred. Numbers then rise more steadily, reaching an average of roughly five hundred senators. In 1938 the series reaches its peak, climbing beyond the five-hundred mark—an acceleration plausibly connected to Mussolini’s need to consolidate a more dependable majority within an institution with which the regime generally worked without major difficulty, but where loyalty became a more pressing concern as Italy moved into a direct alliance with Germany, a strategic orientation not always instinctive for a political culture long accustomed to agreements with Great Britain.
 
-```python editable=true slideshow={"slide_type": ""}
+```python editable=true slideshow={"slide_type": ""} tags=["figure-senate-seniority-*", "anchor-figure-senate-seniority"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7638,7 +7638,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Graph 3. Average seniority among senators in office (end-of-year, 1848–1946)"
+                "Figure 3. Average seniority among senators in office (end-of-year, 1848–1946)"
             ]
         }
     }
@@ -7646,7 +7646,7 @@ metadata = {
 display(Image("./media/senate_avg_seniority_years_by_year_line_bw.png", width=1000), metadata=metadata)
 ```
 
-Graph 3 shows, year by year (1848–1946), the average seniority already accumulated by senators in office in that year. For each year, we treat the Senate as a collective body: we select all senators who are in office under our rule (nomination date ≤ the end of the year; and death missing or death ≥ the start of the year) and, for each of them, we compute how many years have elapsed since nomination up to 31 December of that year. The line therefore reports the mean of these values among all senators serving in that year. Read this way, the figure captures the chamber’s rhythm of permanence. When the line rises, the Senate of that year is, on average, composed of men who have been senators for longer; when it falls, recent appointments weigh more heavily and the composition “refreshes” more quickly. It offers a direct way of seeing how, within a life-appointed institution, the pace of renewal shifts over time, and with it the conditions under which collective habits, styles, and dispositions of the Senate take shape.
+Figure 3 shows, year by year (1848–1946), the average seniority already accumulated by senators in office in that year. For each year, we treat the Senate as a collective body: we select all senators who are in office under our rule (nomination date ≤ the end of the year; and death missing or death ≥ the start of the year) and, for each of them, we compute how many years have elapsed since nomination up to 31 December of that year. The line therefore reports the mean of these values among all senators serving in that year. Read this way, the figure captures the chamber’s rhythm of permanence. When the line rises, the Senate of that year is, on average, composed of men who have been senators for longer; when it falls, recent appointments weigh more heavily and the composition “refreshes” more quickly. It offers a direct way of seeing how, within a life-appointed institution, the pace of renewal shifts over time, and with it the conditions under which collective habits, styles, and dispositions of the Senate take shape.
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
@@ -7654,7 +7654,7 @@ Having established how large the Senate was, and how “old” it was as a colle
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""}
+```python editable=true slideshow={"slide_type": ""} tags=["figure-senate-office-nomination-*", "anchor-figure-senate-office-nomination"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7662,7 +7662,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Graph 4. Senators in office by period, split by nomination cohort"
+                "Figure 4. Senators in office by period, split by nomination cohort"
             ]
         }
     }
@@ -7670,7 +7670,7 @@ metadata = {
 display(Image("./media/senate_in_office_by_nomination_cohort_bw_hatched_barh.png", width=1000), metadata=metadata)
 ```
 
-The quantitative pattern points to a senatorial presence of roughly twenty to thirty years on average—long enough for notability to settle into durable habits, yet not long enough to guarantee a heavy carry-over from one political regime of recruitment to the next. The limited transit between periods makes that plain (Graph 4): the second period is composed largely of senators nominated within 1860–1882, while the earlier cohort contracts rapidly. By the time the third period is reached, the Sardinian nominees no longer form a meaningful component. Age provides the banal explanation—men already of mature years at the moment of nomination—but the institutional implication remains: even a life-appointed chamber undergoes substantial renewal within two generational steps. This has to be read alongside what we observed in the chamber’s territorial enlargement. Just as appointments gradually incorporated the spaces that would form unified Italy, the transition from the Kingdom of Sardinia to the united kingdom involved a marked re-shuffling inside the Senate itself. The older Sardinian senators—already few in relative terms—remain a minority once the new state framework consolidates. The image thus returns a double movement: expansion made possible by conquest and annexation, and an internal recomposition through which the Crown rendered the newly acquired peninsula administratively legible. In that sense, integration was not a neutral unfolding of “national” inclusion, but a widening carried out through the categories and hierarchies of a centre that had learned to govern first at home, and then across the rest of the peninsula.
+The quantitative pattern points to a senatorial presence of roughly twenty to thirty years on average—long enough for notability to settle into durable habits, yet not long enough to guarantee a heavy carry-over from one political regime of recruitment to the next. The limited transit between periods makes that plain (Figure 4): the second period is composed largely of senators nominated within 1860–1882, while the earlier cohort contracts rapidly. By the time the third period is reached, the Sardinian nominees no longer form a meaningful component. Age provides the banal explanation—men already of mature years at the moment of nomination—but the institutional implication remains: even a life-appointed chamber undergoes substantial renewal within two generational steps. This has to be read alongside what we observed in the chamber’s territorial enlargement. Just as appointments gradually incorporated the spaces that would form unified Italy, the transition from the Kingdom of Sardinia to the united kingdom involved a marked re-shuffling inside the Senate itself. The older Sardinian senators—already few in relative terms—remain a minority once the new state framework consolidates. The image thus returns a double movement: expansion made possible by conquest and annexation, and an internal recomposition through which the Crown rendered the newly acquired peninsula administratively legible. In that sense, integration was not a neutral unfolding of “national” inclusion, but a widening carried out through the categories and hierarchies of a centre that had learned to govern first at home, and then across the rest of the peninsula.
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
@@ -7716,11 +7716,11 @@ Crucially, the few “open” categories are not open in a socially expansive se
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
-Graph 5 shows, for each of the five periods, the share of nobles in the Senate (as a percentage of the total number of senators in office). Within each bar, that share is further broken down—again as a percentage of the Senate’s total for the period—into the five noble profiles grouped, for reasons of space, under: Deputies, Landowners, Military, State elites, and Other. The chart therefore allows a double reading: first, the overall trajectory of aristocratic weight within the chamber; second, which types of nobility—understood as distinct career paths and forms of political habitus—account for that share, making visible the internal reconfiguration of the senatorial aristocracy across the long life of the Statuto.
+Figure 5 shows, for each of the five periods, the share of nobles in the Senate (as a percentage of the total number of senators in office). Within each bar, that share is further broken down—again as a percentage of the Senate’s total for the period—into the five noble profiles grouped, for reasons of space, under: Deputies, Landowners, Military, State elites, and Other. The chart therefore allows a double reading: first, the overall trajectory of aristocratic weight within the chamber; second, which types of nobility—understood as distinct career paths and forms of political habitus—account for that share, making visible the internal reconfiguration of the senatorial aristocracy across the long life of the Statuto.
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""}
+```python editable=true slideshow={"slide_type": ""} tags=["figure-nobles-profile-*", "anchor-figure-nobles-profile"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7728,7 +7728,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Graph 5. Nobles by period: deputies, landowners, military, state elites, and other (percent of total appointments)"
+                "Figure 5. Nobles by period: deputies, landowners, military, state elites, and other (percent of total appointments)"
             ]
         }
     }
@@ -7738,7 +7738,7 @@ display(Image("./media/v09_nobles_profile_by_period_bw_hatched_horizontal.png", 
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
-Across the five periods the headline fact is the sheer mass of nobles in the upper chamber up to 1924, and their abrupt collapse thereafter (Graph 5). Nobles account for 68.8% of all appointments in 1848–1859, then rise to 84.3% in 1860–1882 and 85.7% in 1883–1913, before falling to 71.2% in 1914–1924 and collapsing to 21.9% in 1925–1946. This is not a gentle liberal “opening” of the Senate. For decades it functions as an engine of reproduction of a ruling bloc whose legitimacy is anchored in monarchy, hierarchy, and recognisable forms of authority. The crucial point is that this long aristocratic predominance is not softened by the expansion of suffrage (1882) nor by the pre-war transformation of politics: the upper chamber remains structurally insulated from democratising pressures. One can therefore read the Senate as a space where political modernisation is selectively filtered: mass participation may reshape the Chamber, but the Senate continues to operate as a site where authority is reaffirmed through appointment, ceremony, and the social grammar of distinction. In Abélès’ terms, we are watching a “dispositif politique” in which ideology is not an ornament but a condition of reproduction: the institutional form does cultural work, making domination appear normal, continuous, and “natural”.
+Across the five periods the headline fact is the sheer mass of nobles in the upper chamber up to 1924, and their abrupt collapse thereafter (Figure 5). Nobles account for 68.8% of all appointments in 1848–1859, then rise to 84.3% in 1860–1882 and 85.7% in 1883–1913, before falling to 71.2% in 1914–1924 and collapsing to 21.9% in 1925–1946. This is not a gentle liberal “opening” of the Senate. For decades it functions as an engine of reproduction of a ruling bloc whose legitimacy is anchored in monarchy, hierarchy, and recognisable forms of authority. The crucial point is that this long aristocratic predominance is not softened by the expansion of suffrage (1882) nor by the pre-war transformation of politics: the upper chamber remains structurally insulated from democratising pressures. One can therefore read the Senate as a space where political modernisation is selectively filtered: mass participation may reshape the Chamber, but the Senate continues to operate as a site where authority is reaffirmed through appointment, ceremony, and the social grammar of distinction. In Abélès’ terms, we are watching a “dispositif politique” in which ideology is not an ornament but a condition of reproduction: the institutional form does cultural work, making domination appear normal, continuous, and “natural”.
 
 <!-- #endregion -->
 
@@ -7778,7 +7778,7 @@ The figures on deputy background make it possible to describe, with some precisi
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""}
+```python editable=true slideshow={"slide_type": ""} tags=["figure-deputy-background-pct-*", "anchor-figure-deputy-background-pct"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7786,7 +7786,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Graph 6. Deputy background by period (v9): share in office and average pre-Senate Chamber years."
+                "Figure 6. Chamber background and years of pre-Senate Chamber experince, by period."
             ]
         }
     }
@@ -7862,7 +7862,7 @@ This section shifts attention from formal “eligibility” criteria to the occu
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""}
+```python editable=true slideshow={"slide_type": ""} tags=["figure-prof-macro-*", "anchor-figure-prof-macro"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7870,7 +7870,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Graph 7. Macro-professions by period"
+                "Figure 7. Profession among in-office senators, by period"
             ]
         }
     }
