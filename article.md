@@ -7523,7 +7523,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Figure 1. Senate origin by macro-area (100% stacked), by historical period (1848–1946)"
+                "Senate origin by macro-area (100% stacked), by historical period (1848–1946)"
             ]
         }
     }
@@ -7566,7 +7566,7 @@ While Article 33 lists a wide range of eligible routes to appointment, the distr
 <!-- #endregion -->
 
 ```python editable=true slideshow={"slide_type": ""} tags=["table-art33-2cats-period-*", "anchor-table-art33-2cats-period"]
-jdh={"module": "object", "object": {"source": ["Table 1 — Article 33 categories by period"]}} 
+jdh={"module": "object", "object": {"source": ["Article 33 categories by period"]}} 
 slideshow={"slide_type": ""}
 import pandas as pd
 df = pd.read_csv("./script/table_art33_2cats_by_period_pct_v9.csv")
@@ -7589,7 +7589,7 @@ The remaining routes were smaller, yet they still reveal important adjustments i
 ### Profession
 
 ```python tags=["table-prof-macro-*", "anchor-table-prof-macro"]
-jdh={"module": "object", "object": {"source": ["Table 2 — Macro-professions of senators, by period"]}} 
+jdh={"module": "object", "object": {"source": ["Macro-professions of senators, by period"]}} 
 slideshow={"slide_type": ""}
 import pandas as pd
 df = pd.read_csv("./script/table_prof_macro_top5_by_period_pct_v9.csv")
@@ -7620,7 +7620,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Figure 2.Senators in office per year (1848 – 1946)"
+                "Senators in office per year (1848 – 1946)"
             ]
         }
     }
@@ -7638,7 +7638,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Figure 3. Average seniority among senators in office (end-of-year, 1848–1946)"
+                "Average seniority among senators in office (end-of-year, 1848–1946)"
             ]
         }
     }
@@ -7662,7 +7662,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Figure 4. Senators in office by period, split by nomination cohort"
+                "Senators in office by period, split by nomination cohort"
             ]
         }
     }
@@ -7728,7 +7728,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Figure 5. Nobles by period: deputies, landowners, military, state elites, and other (percent of total appointments)"
+                "Nobles by period: deputies, landowners, military, state elites, and other (percent of total appointments)"
             ]
         }
     }
@@ -7786,7 +7786,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Figure 6. Chamber background and years of pre-Senate Chamber experince, by period."
+                "Chamber background and years of pre-Senate Chamber experince, by period."
             ]
         }
     }
@@ -7870,7 +7870,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Figure 7. Profession among in-office senators, by period"
+                "Profession among in-office senators, by period"
             ]
         }
     }
