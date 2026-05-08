@@ -7588,20 +7588,12 @@ The remaining routes were smaller, yet they still reveal important adjustments i
 
 ### Profession
 
-```python
-from IPython.display import Image, display
-metadata = {
-    "jdh": {
-        "module": "object",
-        "object": {
-            "type": "image",
-            "source": [
-                "Table 2 — Macro-professions of senators, by period"
-            ]
-        }
-    }
-}
-display(Image("./media/table_prof_macro_top5_by_period_bw_v9.png", width=1000), metadata=metadata)
+```python tags=["table-prof-macro-*"]
+jdh={"module": "object", "object": {"source": ["Table 2 — Macro-professions of senators, by period"]}} 
+slideshow={"slide_type": ""}
+import pandas as pd
+df = pd.read_csv("./script/table_prof_macro_top5_by_period_pct_v9.csv")
+df
 ```
 
 The macro-professional (Table 2), clarifies how these statutory channels are socially embodied. Economic elites remain substantial but trend downwards in the later phases: after 31.7% in 1860–1882 they decline to 24.1% in 1883–1913, 18.6% in 1914–1924, and 16.6% in 1925–1946. In parallel, credentialled expertise expands. University professors rise from 4.9% (1848–1859) to 9.4% (1860–1882), 12.7% (1883–1913), peak at 19.3% (1914–1924), and remain elevated at 18.0% (1925–1946). Lawyers similarly climb from 3.5% to 6.7% and 8.6% in the first three periods, peak at 16.3% in 1914–1924, and then retreat to 11.4% thereafter. These trajectories indicate a growing premium on credentials and formal competences as usable forms of authority within the state’s upper institutions. Coercive and high-state careers show long downward pressure with a partial reversal in the final period. Military elites fall from 20.8% in 1848–1859 to 12.0% in 1860–1882, hover around 11% across the liberal decades, and then rise to 16.7% in 1925–1946. Magistrates decline from 19.4% in the first period to around 10.5% in the middle decades, drop to 8.4% in 1914–1924, and recover to 10.3% thereafter. The final period thus modifies earlier tendencies rather than cancelling them: the re-weighting of military and senior state careers coincides with the renewed prominence of top taxpayers, yet the chamber continues to rely heavily on parliamentary experience and credentialled expertise.
