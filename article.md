@@ -8,7 +8,7 @@ jupyter:
       format_version: '1.3'
       jupytext_version: 1.19.1
   kernelspec:
-    display_name: base
+    display_name: Python 3 (ipykernel)
     language: python
     name: python3
 ---
@@ -58,7 +58,7 @@ The Italian Senate under the Statuto Albertino (1848–1946) presents a constitu
 
 <!-- #endregion -->
 
-<!-- #region editable=true jp-MarkdownHeadingCollapsed=true slideshow={"slide_type": ""} -->
+<!-- #region editable=true slideshow={"slide_type": ""} -->
 
 ## Introduction
 
@@ -7775,7 +7775,7 @@ The rupture after 1925, finally, is therefore not only numerical; it is a transf
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
-The figures on deputy background make it possible to describe, with some precision, how far the Italian Senate was “fed” by the Chamber of Deputies, and how this relationship changed across the major phases of the constitutional regime. If we treat each period as an “in-office” window (counting senators who were serving at any point within the interval), we see that a substantial share of the Senate was composed of ex-deputies, and that this share rises steadily up to the early twentieth century, before falling back to a much lower level under Fascism.
+The figures on deputy background (### ONLY ONE FIGURE HERE ABOUT DEPUTY BACKGROUND = FIGURE 6) make it possible to describe, with some precision, how far the Italian Senate was “fed” by the Chamber of Deputies, and how this relationship changed across the major phases of the constitutional regime. If we treat each period as an “in-office” window (counting senators who were serving at any point within the interval), we see that a substantial share of the Senate was composed of ex-deputies, and that this share rises steadily up to the early twentieth century, before falling back to a much lower level under Fascism.
 
 <!-- #endregion -->
 
@@ -7797,7 +7797,7 @@ display(Image("./media/deputy_background_pct_with_avg_years_bw_single_chart_v9.p
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
-In the first period, 1848–1859, the Senate in office consists of 144 senators. Among them, 34 have a Chamber background, which corresponds to 23.61 per cent. In other words, in the initial phase of the constitutional experiment, fewer than one senator in four had previously been a deputy. This is an important baseline. The regime is newly constructed in 1848, and it is unsurprising that the Senate is not yet strongly “professionalised” through long parliamentary careers. The average number of years of Chamber experience before Senate nomination is low: 0.97 years when computed across all senators in office (including those with no deputy background), and 4.09 years when computed only among the ex-deputies. The second figure is the key one for understanding what the deputy pathway meant in this early phase: even where the Senate does include former deputies, their Chamber experience is still relatively limited.
+In the first period, 1848–1859, the Senate in office consists of 144 senators. Among them, 34 have a Chamber background, which corresponds to 23.61 per cent. In other words, in the initial phase of the constitutional experiment, fewer than one senator in four had previously been a deputy. This is an important baseline. The regime is newly constructed in 1848, and it is unsurprising that the Senate is not yet strongly “professionalised” through long parliamentary careers. The average number of years of Chamber experience before Senate nomination is low: 0.97 years when computed across all senators in office (including those with no deputy background), and 4.09 years when computed only among the ex-deputies. The second figure (### TO WHICH FIGURE DOES THIS REFER 6 OR 7?) is the key one for understanding what the deputy pathway meant in this early phase: even where the Senate does include former deputies, their Chamber experience is still relatively limited.
 
 <!-- #endregion -->
 
