@@ -8,7 +8,7 @@ jupyter:
       format_version: '1.3'
       jupytext_version: 1.19.1
   kernelspec:
-    display_name: base
+    display_name: Python 3 (ipykernel)
     language: python
     name: python3
 ---
@@ -7515,7 +7515,7 @@ The unification of the Italian peninsula moved through an uneven opening, then t
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-senate-origin-*", "anchor-figure-senate-orgin"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-senate-origin-*", "anchor-figure-senate-origin-*"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7570,7 +7570,8 @@ While Article 33 lists a wide range of eligible routes to appointment, the distr
 <!-- #endregion -->
 
 ```python editable=true jdh={"module": "object", "object": {"source": ["Article 33 categories by period"], "type": "image"}} slideshow={"slide_type": ""} tags=["table-art33-2cats-period-*", "anchor-table-art33-2cats-period"]
-pandas.read_csv("./script/table_art33_2cats_by_period_pct_v9.csv")
+import pandas as pd
+df = pd.read_csv("./script/table_art33_2cats_by_period_pct_v9.csv")
 
 ```
 
@@ -7591,7 +7592,7 @@ The remaining routes were smaller, yet they still reveal important adjustments i
 ### Profession
 
 ```python jdh={"module": "object", "object": {"source": ["Macro-professions of senators, by period"], "type": "image"}} slideshow={"slide_type": ""} tags=["table-prof-macro-*", "anchor-table-prof-macro"]
-pandas.read_csv("./script/table_prof_macro_top5_by_period_pct_v9.csv")
+df = pd.read_csv("./script/table_prof_macro_top5_by_period_pct_v9.csv")
 
 ```
 
