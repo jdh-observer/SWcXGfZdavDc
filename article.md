@@ -2113,6 +2113,7 @@ New columns generated in this step (V3→V4)
   - Rule: take the first column whose value is “truthy”; otherwise `_period` is missing (NaN).
   <!-- #endregion -->
 
+
 ```python editable=true slideshow={"slide_type": ""}
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -2362,6 +2363,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
 
