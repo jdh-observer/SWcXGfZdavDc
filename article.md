@@ -2092,7 +2092,7 @@ To place the resulting indicator into a temporal framework, the script assigns e
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
+````python editable=true slideshow={"slide_type": ""} tags=["hermeneutics"]
 
 New columns generated in this step (V3→V4)
 
@@ -2362,13 +2362,10 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
+````
 
-
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
-
+<!-- #region tags=["hermeneutics"] -->
 ### V4→V5: Nomination Codes Extracted to Dummies
-
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
