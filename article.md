@@ -6,7 +6,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.3'
-      jupytext_version: 1.19.2
+      jupytext_version: 1.16.6
   kernelspec:
     display_name: Python 3 (ipykernel)
     language: python
@@ -4624,22 +4624,20 @@ metadata = {
 display(Image("./media/graph1_senate_origin_by_periods_100pct_barh.png", width=1000), metadata=metadata)
 ```
 
-````python editable=true jdh={"object": {"source": ["Graph 1. Senate origin by macro-area (100% stacked), by historical period (1848\u20131946)"]}} slideshow={"slide_type": ""}
-
-
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
+<!-- #region tags=["hermeneutics"] -->
 ### Categories and Professions of Senators
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
+<!-- #region tags=["hermeneutics"] -->
 We begin this section with a first-glance check of the Senate’s social grammar across the whole “century of unification”: not geography this time, but the combined profile of nomination categories (Article 33), professions, and seniority patterns across the five periods. The aim is to establish, before any finer reading, what the chamber was socially “made of” at different moments, and which recruitment channels remained structurally dominant despite regime change. This first pass also separates what belongs to the statutory logic of appointment (categories) from what belongs to the lived organisation of elite work and status (professions), so that the two dimensions can later be read together rather than conflated.
+
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
+<!-- #region tags=["hermeneutics"] -->
 To keep the descriptive layer readable while remaining faithful to the statutory architecture, we begin by establishing which Article 33 nomination routes recur most often in the Senate across the five periods. Article 33 lists twenty-one eligibility categories, but treating all of them at once in periodised tables would produce a dense grid with limited interpretive return. We therefore run an initial frequency check on the overall set of senators who are “in office” at least once between 1848 and 1946 (union of the five period masks). For each of the twenty-one categories, we compute the number of senators who satisfy that condition and express it as a percentage of the union “in-office” base. This preliminary step has a simple purpose: it allows us to identify a small subset of high-frequency categories that structure the chamber most consistently, and to set aside the long tail of rarer categories for which a period-by-period breakdown would add bulk rather than clarity. In practical terms, we apply a threshold (here: categories representing at least five per cent of the union base) to select the most recurrent routes into the Senate. The subsequent section then focuses on this reduced set, where a compact table can show meaningful variation over time without forcing the reader through a twenty-one-column matrix.
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""}
+```python editable=true jdh={"object": {"source": ["Graph 1. Senate origin by macro-area (100% stacked), by historical period (1848\u20131946)"]}} slideshow={"slide_type": ""}
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -4972,7 +4970,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-````
+```
 
 ### Categories (reorganised)
 
