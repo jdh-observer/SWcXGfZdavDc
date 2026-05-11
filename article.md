@@ -2092,8 +2092,7 @@ To place the resulting indicator into a temporal framework, the script assigns e
 
 <!-- #endregion -->
 
-````python editable=true slideshow={"slide_type": ""} tags=["hermeneutics"]
-
+<!-- #region tags=["hermeneutics"] -->
 New columns generated in this step (V3→V4)
 
 - `noble_flag_new`
@@ -2111,10 +2110,11 @@ New columns generated in this step (V3→V4)
 - `_period`
   - Assigned by scanning: `P_1848_1859`, `P_1860_1882`, `P_1883_1913`, `P_1914_1924`, `P_1925_1946`.
   - Rule: take the first column whose value is “truthy”; otherwise `_period` is missing (NaN).
-  <!-- #endregion -->
 
 
-```python editable=true slideshow={"slide_type": ""}
+<!-- #endregion -->
+
+```python editable=true slideshow={"slide_type": ""} tags=["hermeneutics"]
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -2362,7 +2362,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-````
+```
 
 <!-- #region tags=["hermeneutics"] -->
 ### V4→V5: Nomination Codes Extracted to Dummies
@@ -4621,7 +4621,7 @@ metadata = {
         }
     }
 }
-display(Image("./media/graph1_senate_origin_by_periods_100pct_barh", width=1000), metadata=metadata)
+display(Image("./media/graph1_senate_origin_by_periods_100pct_barh.png", width=1000), metadata=metadata)
 ```
 
 ````python editable=true jdh={"object": {"source": ["Graph 1. Senate origin by macro-area (100% stacked), by historical period (1848\u20131946)"]}} slideshow={"slide_type": ""}
