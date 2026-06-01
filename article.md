@@ -6,7 +6,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.3'
-      jupytext_version: 1.16.6
+      jupytext_version: 1.19.3
   kernelspec:
     display_name: Python 3 (ipykernel)
     language: python
@@ -5950,8 +5950,7 @@ if __name__ == "__main__":
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
-
-In the script we used V7 to produce a single bar chart (and the corresponding tables) that, by period, reports the percentage of senators in office who have a Chamber background and, alongside it, the mean number of Chamber legislatures completed before entering the Senate. The aim is historical rather than purely descriptive: it does not simply count “former deputies”, but treats parliamentary experience as a variable of depth (number of legislatures), distinguishing a brief passage through the Chamber from a longer political apprenticeship preceding appointment.
+In this section, we produce [Figure 6](#anchor-figure-deputy-background-pct), a single bar chart that, by period, reports the percentage of senators in office who had previously served in the Chamber of Deputies and, alongside it, the mean number of years of Chamber experience completed before entering the Senate. The aim is historical rather than purely descriptive: the figure does not simply count former deputies, but treats parliamentary experience as a variable of depth, distinguishing a brief passage through the Chamber from a longer political apprenticeship preceding appointment. The figure is presented and interpreted in the narrative section below.
 
 <!-- #endregion -->
 
@@ -7773,11 +7772,10 @@ The rupture after 1925, finally, is therefore not only numerical; it is a transf
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
-The figures on deputy background (### ONLY ONE FIGURE HERE ABOUT DEPUTY BACKGROUND = FIGURE 6) make it possible to describe, with some precision, how far the Italian Senate was “fed” by the Chamber of Deputies, and how this relationship changed across the major phases of the constitutional regime. If we treat each period as an “in-office” window (counting senators who were serving at any point within the interval), we see that a substantial share of the Senate was composed of ex-deputies, and that this share rises steadily up to the early twentieth century, before falling back to a much lower level under Fascism.
-
+Figure 6 makes it possible to describe, with some precision, how far the Italian Senate was “fed” by the Chamber of Deputies, and how this relationship changed across the major phases of the constitutional regime. If we treat each period as an “in-office” window (counting senators who were serving at any point within the interval), we see that a substantial share of the Senate was composed of ex-deputies, and that this share rises steadily up to the early twentieth century, before falling back to a much lower level under Fascism.
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-deputy-background-pct-*", "anchor-figure-deputy-background-pct"]
+```python editable=true jupyter={"source_hidden": true} slideshow={"slide_type": ""} tags=["figure-deputy-background-pct-*", "anchor-figure-deputy-background-pct"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7850,9 +7848,7 @@ The mapping table provides a check on the semantic coherence of each class by sh
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
-
-After examining aristocracy—the social stratum that most clearly marks the Senate’s point of departure in 1848—we turn to what is arguably the second major formative bloc in the chamber: senators with a prior career in the Chamber of Deputies. This section therefore establishes, first, the share of “ex-deputies” within the Senate (again using the same in-office period windows), and, second, the length of their parliamentary experience before appointment. The underlying idea is simple: the longer the time spent in the elected chamber, the more a person is likely to have absorbed its practical habits—committee work, bargaining, drafting, procedural knowledge—and the more readily that experience can be converted into the legislative labour expected of a nominee, especially given that senatorial appointments often came in politically timed batches. A further step, mirroring what we did for nobles, is to disaggregate this deputy background by profession: we ask what kinds of occupational worlds fed the “ex-deputy” stream, and how that occupational imprint interacts with the mental habits of long parliamentary service. In other words, we treat “being an ex-deputy” not as a single label, but as a layered formation—part professional disposition, part parliamentary apprenticeship—through which a distinctive senatorial outlook could take shape.
-
+Having established the changing weight of former deputies within the Senate and the length of their pre-Senate parliamentary experience (Figure 6), we can now examine their professional composition. This further comparison, mirroring the analysis of nobles, disaggregates deputy background by profession and asks what kinds of occupational worlds fed the ex-deputy stream. Figure 7 therefore compares the macro-professional profile of all senators in office with that of senators who had previously served in the Chamber, across the five periods. Read alongside Figure 6, this comparison allows us to treat previous service in the Chamber as a layered formation—part professional disposition, part parliamentary apprenticeship—through which a distinctive senatorial outlook could take shape.
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
