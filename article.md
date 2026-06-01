@@ -6482,9 +6482,7 @@ if __name__ == "__main__":
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
-
-Starting from the master Senate dataset, we operationalised a temporal reading of institutional careers by translating nomination and death information into a reproducible “in-office” rule, with an explicit treatment of missing death dates to avoid silent distortions. On this basis, we computed periodised distributions of professione_macro for five political phases, and replicated the same procedure on the subset with a Chamber-of-Deputies background. The workflow outputs both machine-readable CSV summaries and black-and-white percentage visualisations, plus a mapping table that documents how professione_bio values are aggregated into macro-professional categories.
-
+Starting from the master Senate dataset, we produce [Table 2](#anchor-table-prof-macro) and [Figure 7](#anchor-figure-prof-macro) by operationalising a temporal reading of institutional careers through a reproducible “in-office” rule, with an explicit treatment of missing death dates to avoid silent distortions. On this basis, we compute periodised distributions of `professione_macro` for five political phases and replicate the same procedure on the subset of senators with a Chamber-of-Deputies background. Table 2 presents the macro-professional distribution of all senators in office across the five periods, while Figure 7 compares this general profile with that of senators who had previously served in the Chamber. The workflow also outputs machine-readable CSV summaries and a mapping table documenting how `professione_bio` values are aggregated into macro-professional categories. Both objects are presented and interpreted in the narrative section below.
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
