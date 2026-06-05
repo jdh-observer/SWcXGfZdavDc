@@ -30,26 +30,12 @@ CIES/IUL
 <!-- #region tags=["copyright"] -->
 
 [![cc-by](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
-©<AUTHOR or ORGANIZATION / FUNDER>. Published by De Gruyter in cooperation with the University of Luxembourg Centre for Contemporary and Digital History. This is an Open Access article distributed under the terms of the [Creative Commons Attribution License CC-BY](https://creativecommons.org/licenses/by/4.0/)
-
-<!-- #endregion -->
-
-```python tags=["cover"]
-from IPython.display import Image, display
-
-display(Image("./media/placeholder.png"))
-```
-
-<!-- #region tags=["disclaimer"] -->
-
-(optional) This article was orginally published (...)
+© Goffredo Adinolfi. Published by De Gruyter in cooperation with the University of Luxembourg Centre for Contemporary and Digital History. This is an Open Access article distributed under the terms of the [Creative Commons Attribution License CC-BY](https://creativecommons.org/licenses/by/4.0/)
 
 <!-- #endregion -->
 
 <!-- #region tags=["keywords"] -->
-
 Liberalism; Democratisation; Digital history; Risorgimento; Italian Senate
-
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["abstract"] -->
@@ -7773,7 +7759,7 @@ The rupture after 1925, finally, is therefore not only numerical; it is a transf
 Figure 6 makes it possible to describe, with some precision, how far the Italian Senate was “fed” by the Chamber of Deputies, and how this relationship changed across the major phases of the constitutional regime. If we treat each period as an “in-office” window (counting senators who were serving at any point within the interval), we see that a substantial share of the Senate was composed of ex-deputies, and that this share rises steadily up to the early twentieth century, before falling back to a much lower level under Fascism.
 <!-- #endregion -->
 
-```python editable=true jupyter={"source_hidden": true} slideshow={"slide_type": ""} tags=["figure-deputy-background-pct-*", "anchor-figure-deputy-background-pct"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-deputy-background-pct-*", "anchor-figure-deputy-background-pct"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -7929,6 +7915,9 @@ Methodologically, the article has sought to demonstrate the analytical value of 
 
 The Italian Senate matters, finally, beyond the national case. As an institution that endured across the full arc of modern Italian political history—from the constitutional experiments of 1848 through liberal consolidation, mass politics, and authoritarian transformation—it offers a privileged observatory from which to rethink how representative regimes preserve continuity through controlled adaptation. Upper chambers, in the European experience, have frequently served as mechanisms for stabilising elite reproduction while incorporating selected forms of political modernity: absorbing parliamentary professionals, credentialled experts, and new territorial elites without dismantling the hierarchies of wealth, office, and distinction on which their authority rested. The Albertine Senate, precisely because it was never formally reformed, makes this process unusually legible. Its constitutional endurance did not conceal stasis; it concealed deep transformations in the social composition of power, transformations recoverable only through systematic prosopographical reconstruction. In broader comparative terms, the Senate’s trajectory illuminates the relationship between liberal institutions, parliamentary development, and authoritarian transition in ways that remain pertinent to any inquiry into how constitutional forms outlive the political orders that created them—and how the apparent permanence of institutional architecture can accommodate, and at times disguise, the remaking of the elites who inhabit it.
 
+
+
+<!-- #region tags=["hidden"] -->
 ## References
 
 <!-- BIBLIOGRAPHY START -->
@@ -7960,3 +7949,8 @@ The Italian Senate matters, finally, beyond the national case. As an institution
   <div class="csl-entry"><i id="zotero|22491602/8D3T896F"></i>Zaagsma, G. (2013). On Digital History. <i>BMGN - Low Countries Historical Review</i>, <i>128</i>(4), 3–29. <a href="https://doi.org/10.18352/bmgn-lchr.9344">https://doi.org/10.18352/bmgn-lchr.9344</a></div>
 </div>
 <!-- BIBLIOGRAPHY END -->
+<!-- #endregion -->
+
+```python
+
+```
