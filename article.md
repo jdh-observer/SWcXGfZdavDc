@@ -5,7 +5,7 @@ jupyter:
     text_representation:
       extension: .md
       format_name: markdown
-      format_version: '1.3'
+      format_version: "1.3"
       jupytext_version: 1.19.3
   kernelspec:
     display_name: Python 3 (ipykernel)
@@ -35,7 +35,9 @@ CIES/IUL
 <!-- #endregion -->
 
 <!-- #region tags=["keywords"] -->
+
 Liberalism; Democratisation; Digital history; Risorgimento; Italian Senate
+
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["abstract"] -->
@@ -2059,7 +2061,6 @@ if __name__ == "__main__":
     main()
 ```
 
-
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
 
 ### V3→V4: Nobility extraction and standardisation (nobile_al_momento_nomina → noble_flag_new/title/detail)
@@ -2079,6 +2080,7 @@ To place the resulting indicator into a temporal framework, the script assigns e
 <!-- #endregion -->
 
 <!-- #region tags=["hermeneutics"] -->
+
 New columns generated in this step (V3→V4)
 
 - `noble_flag_new`
@@ -2096,7 +2098,6 @@ New columns generated in this step (V3→V4)
 - `_period`
   - Assigned by scanning: `P_1848_1859`, `P_1860_1882`, `P_1883_1913`, `P_1914_1924`, `P_1925_1946`.
   - Rule: take the first column whose value is “truthy”; otherwise `_period` is missing (NaN).
-
 
 <!-- #endregion -->
 
@@ -2351,7 +2352,9 @@ if __name__ == "__main__":
 ```
 
 <!-- #region tags=["hermeneutics"] -->
+
 ### V4→V5: Nomination Codes Extracted to Dummies
+
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
@@ -4611,16 +4614,21 @@ display(Image("./media/graph1_senate_origin_by_periods_100pct_barh.png", width=1
 ```
 
 <!-- #region tags=["hermeneutics"] -->
+
 ### Categories and Professions of Senators
+
 <!-- #endregion -->
 
 <!-- #region tags=["hermeneutics"] -->
+
 We begin this section with a first-glance check of the Senate’s social grammar across the whole “century of unification”: not geography this time, but the combined profile of nomination categories (Article 33), professions, and seniority patterns across the five periods. The aim is to establish, before any finer reading, what the chamber was socially “made of” at different moments, and which recruitment channels remained structurally dominant despite regime change. This first pass also separates what belongs to the statutory logic of appointment (categories) from what belongs to the lived organisation of elite work and status (professions), so that the two dimensions can later be read together rather than conflated.
 
 <!-- #endregion -->
 
 <!-- #region tags=["hermeneutics"] -->
+
 To keep the descriptive layer readable while remaining faithful to the statutory architecture, we begin by establishing which Article 33 nomination routes recur most often in the Senate across the five periods. Article 33 lists twenty-one eligibility categories, but treating all of them at once in periodised tables would produce a dense grid with limited interpretive return. We therefore run an initial frequency check on the overall set of senators who are “in office” at least once between 1848 and 1946 (union of the five period masks). For each of the twenty-one categories, we compute the number of senators who satisfy that condition and express it as a percentage of the union “in-office” base. This preliminary step has a simple purpose: it allows us to identify a small subset of high-frequency categories that structure the chamber most consistently, and to set aside the long tail of rarer categories for which a period-by-period breakdown would add bulk rather than clarity. In practical terms, we apply a threshold (here: categories representing at least five per cent of the union base) to select the most recurrent routes into the Senate. The subsequent section then focuses on this reduced set, where a compact table can show meaningful variation over time without forcing the reader through a twenty-one-column matrix.
+
 <!-- #endregion -->
 
 ```python editable=true jdh={"object": {"source": ["Graph 1. Senate origin by macro-area (100% stacked), by historical period (1848\u20131946)"]}} slideshow={"slide_type": ""}
@@ -5936,6 +5944,7 @@ if __name__ == "__main__":
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
+
 In this section, we produce [Figure 6](#anchor-figure-deputy-background-pct), a single bar chart that, by period, reports the percentage of senators in office who had previously served in the Chamber of Deputies and, alongside it, the mean number of years of Chamber experience completed before entering the Senate. The aim is historical rather than purely descriptive: the figure does not simply count former deputies, but treats parliamentary experience as a variable of depth, distinguishing a brief passage through the Chamber from a longer political apprenticeship preceding appointment. The figure is presented and interpreted in the narrative section below.
 
 <!-- #endregion -->
@@ -6468,7 +6477,9 @@ if __name__ == "__main__":
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
+
 Starting from the master Senate dataset, we produce [Table 2](#anchor-table-prof-macro) and [Figure 7](#anchor-figure-prof-macro) by operationalising a temporal reading of institutional careers through a reproducible “in-office” rule, with an explicit treatment of missing death dates to avoid silent distortions. On this basis, we compute periodised distributions of `professione_macro` for five political phases and replicate the same procedure on the subset of senators with a Chamber-of-Deputies background. Table 2 presents the macro-professional distribution of all senators in office across the five periods, while Figure 7 compares this general profile with that of senators who had previously served in the Chamber. The workflow also outputs machine-readable CSV summaries and a mapping table documenting how `professione_bio` values are aggregated into macro-professional categories. Both objects are presented and interpreted in the narrative section below.
+
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["hermeneutics"] -->
@@ -7757,6 +7768,7 @@ The rupture after 1925, finally, is therefore not only numerical; it is a transf
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
 Figure 6 makes it possible to describe, with some precision, how far the Italian Senate was “fed” by the Chamber of Deputies, and how this relationship changed across the major phases of the constitutional regime. If we treat each period as an “in-office” window (counting senators who were serving at any point within the interval), we see that a substantial share of the Senate was composed of ex-deputies, and that this share rises steadily up to the early twentieth century, before falling back to a much lower level under Fascism.
+
 <!-- #endregion -->
 
 ```python editable=true slideshow={"slide_type": ""} tags=["figure-deputy-background-pct-*", "anchor-figure-deputy-background-pct"]
@@ -7777,7 +7789,7 @@ display(Image("./media/deputy_background_pct_with_avg_years_bw_single_chart_v9.p
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
-In the first period, 1848–1859, the Senate in office consists of 144 senators. Among them, 34 have a Chamber background, which corresponds to 23.61 per cent. In other words, in the initial phase of the constitutional experiment, fewer than one senator in four had previously been a deputy. This is an important baseline. The regime is newly constructed in 1848, and it is unsurprising that the Senate is not yet strongly “professionalised” through long parliamentary careers. The average number of years of Chamber experience before Senate nomination is low: 0.97 years when computed across all senators in office (including those with no deputy background), and 4.09 years when computed only among the ex-deputies. The second figure (### TO WHICH FIGURE DOES THIS REFER 6 OR 7?) is the key one for understanding what the deputy pathway meant in this early phase: even where the Senate does include former deputies, their Chamber experience is still relatively limited.
+In the first period, 1848–1859, the Senate in office consists of 144 senators. Among them, 34 have a Chamber background, which corresponds to 23.61 per cent. In other words, in the initial phase of the constitutional experiment, fewer than one senator in four had previously been a deputy. This is an important baseline. The regime is newly constructed in 1848, and it is unsurprising that the Senate is not yet strongly “professionalised” through long parliamentary careers. The average number of years of Chamber experience before Senate nomination is low: 0.97 years when computed across all senators in office (including those with no deputy background), and 4.09 years when computed only among the ex-deputies. The latter measure is the key one for understanding what the deputy pathway meant in this early phase: even where the Senate does include former deputies, their Chamber experience is still relatively limited.
 
 <!-- #endregion -->
 
@@ -7832,7 +7844,9 @@ The mapping table provides a check on the semantic coherence of each class by sh
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
+
 Having established the changing weight of former deputies within the Senate and the length of their pre-Senate parliamentary experience (Figure 6), we can now examine their professional composition. This further comparison, mirroring the analysis of nobles, disaggregates deputy background by profession and asks what kinds of occupational worlds fed the ex-deputy stream. Figure 7 therefore compares the macro-professional profile of all senators in office with that of senators who had previously served in the Chamber, across the five periods. Read alongside Figure 6, this comparison allows us to treat previous service in the Chamber as a layered formation—part professional disposition, part parliamentary apprenticeship—through which a distinctive senatorial outlook could take shape.
+
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
@@ -7915,9 +7929,8 @@ Methodologically, the article has sought to demonstrate the analytical value of 
 
 The Italian Senate matters, finally, beyond the national case. As an institution that endured across the full arc of modern Italian political history—from the constitutional experiments of 1848 through liberal consolidation, mass politics, and authoritarian transformation—it offers a privileged observatory from which to rethink how representative regimes preserve continuity through controlled adaptation. Upper chambers, in the European experience, have frequently served as mechanisms for stabilising elite reproduction while incorporating selected forms of political modernity: absorbing parliamentary professionals, credentialled experts, and new territorial elites without dismantling the hierarchies of wealth, office, and distinction on which their authority rested. The Albertine Senate, precisely because it was never formally reformed, makes this process unusually legible. Its constitutional endurance did not conceal stasis; it concealed deep transformations in the social composition of power, transformations recoverable only through systematic prosopographical reconstruction. In broader comparative terms, the Senate’s trajectory illuminates the relationship between liberal institutions, parliamentary development, and authoritarian transition in ways that remain pertinent to any inquiry into how constitutional forms outlive the political orders that created them—and how the apparent permanence of institutional architecture can accommodate, and at times disguise, the remaking of the elites who inhabit it.
 
-
-
 <!-- #region tags=["hidden"] -->
+
 ## References
 
 <!-- BIBLIOGRAPHY START -->
